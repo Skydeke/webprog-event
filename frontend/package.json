@@ -6,7 +6,7 @@
   "scripts": {
     "serve": "node  server.js",
     "format": "npx prettier --write .",
-    "eslint":"./node_modules/.bin/eslint --fix"
+    "eslint": "./node_modules/.bin/eslint --fix"
   },
   "author": "",
   "license": "ISC",
