@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<link rel="stylesheet" type="text/css" href="login.css" media="screen" />
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+<html>
+<head>
+	<title>Code Night Login</title>
+</head>
+<body>
+	<h1>Code-Night Login</h1>
+	    <form>
+		<label for="name" aria-required="true">Name:</label>
+		<input type="text" id="name" name="name"><br>
+
+		<label for="email">E-Mail:</label>
+		<input type="email" id="email" name="email"><br>        
+        
+
+		<button type="button" onclick="sendData()">Senden</button>
+        <button type="reset">Felder leeren</button>
+	</form>
+
+	<script src="script.js"></script>
+</body>
+</html>
