@@ -1,79 +1,76 @@
 body {
-    font-family: Arial, sans-serif;
+  font-family: Arial, sans-serif;
 }
 
 h1 {
-    text-align: center;
+  text-align: center;
 }
 
 form {
-    max-width: 400px;
-    margin: 0 auto;
-    padding: 50px;
-    background-color: #f2f2f2;
-    border-radius: 10px;
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 50px;
+  background-color: #f2f2f2;
+  border-radius: 10px;
 }
 
 p {
-    width: 300px;
-    margin:  50 auto;
-    margin-left: 100;
-    margin-right: 100;
-    padding: 50px;
-    background-color: #f2f2f2;
-    text-align: center;
-
+  width: 300px;
+  margin: 50 auto;
+  margin-left: 100;
+  margin-right: 100;
+  padding: 50px;
+  background-color: #f2f2f2;
+  text-align: center;
 }
 
 div {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 label {
-    display: block;
-    margin-bottom: 10px;
+  display: block;
+  margin-bottom: 10px;
 }
 
 input[type="text"],
 input[type="email"] {
-    width: 100%;
-    padding: 10px;
-    border-radius: 5px;
-    border: none;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
-    margin-bottom: 20px;
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  margin-bottom: 20px;
 }
 
 button[type="button"] {
-    background-color: #4CAF50;
-    color: #fff;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
+  background-color: #4caf50;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
 }
 
 button[type="button"]:hover {
-    background-color: #3e8e41;
+  background-color: #3e8e41;
 }
 
 button[type="reset"] {
-    background-color: #414941;
-    color: #fff;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
+  background-color: #414941;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
 }
 
 button[type="reset"]:hover {
-    background-color: #ffffff;
-    color: #414941;
+  background-color: #ffffff;
+  color: #414941;
 }
-
 
 button[type="button2"] {
     background-color: #414941;
