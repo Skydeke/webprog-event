@@ -7,7 +7,7 @@ h1 {
 }
 
 form {
-    max-width: 200px;
+    max-width: 400px;
     margin: 0 auto;
     padding: 50px;
     background-color: #f2f2f2;
@@ -72,4 +72,19 @@ button[type="reset"] {
 button[type="reset"]:hover {
     background-color: #ffffff;
     color: #414941;
+}
+
+
+button[type="button2"] {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 90%;
+}
+
+button[type="button2"]:hover {
+    background-color: #3e8e41;
 }
